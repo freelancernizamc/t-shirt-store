@@ -1,4 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.header h1 {
+    color: crimson;
+    margin-left: 20px;
+}
+
+.header h1 .text {
+    color: aqua
+}
+
 nav a {
     margin-right: 15px;
     font-size: 20px;
+}
+
+nav a:hover {
+    color: aqua;
 }
